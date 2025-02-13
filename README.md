@@ -1,11 +1,12 @@
-# Unsupervised human-to-robot motion retargeting via expressive latent space
+# 3D Whole-body Pose Estimation Using Graph High-Resolution Network for Humanoid Robot Teleoperation
 
 
-Webpage for "Unsupervised human-to-robot motion retargeting via expressive latent space"
-- Yashuai Yan
-- Esteve Valls Mascaro
-- Dongheui Lee
+Webpage for "3D Whole-body Pose Estimation Using Graph High-Resolution Network for Humanoid Robot Teleoperation"
+- Mingyu Zhang
+- Qing Gao
+-Yuanchuan Lai
+-Ye Zhang
+-Tao Chang
+-Yulan Guo
 
-Autonomous Systems, TU Wien, 1040 Wien
-German Aerospace Center (DLR)
                 
