@@ -261,7 +261,7 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-          This paper introduces a novel deep-learning approach for human-to-robot motion retargeting, enabling robots to mimic human poses accurately. Contrary to prior deep-learning-based works, our method does not require paired human-to-robot data, which facilitates its translation to new robots. First, we construct a shared latent space between humans and robots via adaptive contrastive learning that takes advantage of a proposed cross-domain similarity metric between the human and robot poses.  Additionally, we propose a consistency term to build a common latent space that captures the similarity of the poses with precision while allowing direct robot motion control from the latent space. For instance, we can generate in-between motion through simple linear interpolation between two projected human poses. We conduct a comprehensive evaluation of robot control from diverse modalities (i.e., texts, RGB videos, and key poses), which facilitates robot control for non-expert users. Our model outperforms existing works regarding human-to-robot retargeting in terms of efficiency and precision. Finally, we implemented our method in a real robot with self-collision avoidance through a whole-body controller to showcase the effectiveness of our approach.
+          In the realm of robotics, teleoperation plays a pivotal role in performing high-risk or intricate tasks, and obtaining precise 3D whole-body pose is crucial for this purpose. Traditional two-stage methods have limitations in estimating different body parts, leading to complex systems and higher estimation errors. In order to address these issues,the paper introduces a novel framework called Graph High-Resolution Network(GraphHRNet) for accurate 3D whole-body pose estimation, which is essential for the teleoperation of humanoid robots. GraphHRNet effectively captures global structural information and local details by integrating a High-Resolution Module and a Multi-branch Regression Module. The High-Resolution Module utilizes an enhanced graph convolution kernel to fuse multi-scale features, capturing global information, while the Multi-branch Regression Module focuses on refining and predicting accurate 3D coordinates for intricate body parts such as hands and face. Experimental results on the H3WB dataset demonstrate that GraphHRNet surpasses state-of-the-art(SOTA) methods in 3D whole-body pose estimation , significantly improving performance. Furthermore, the paper explores the potential application of this approach in a teleoperation system for humanoid robots, providing an intuitive and high-fidelity solution for remotely executing complex tasks.
           </p>
         </div>
       </div>
@@ -275,7 +275,7 @@
     <div class="container">
 
       <div class="column is-centered has-text-centered">
-        <img src="static/figures/overview.jpg" alt="Motivation of our model"/>
+        <img src="static/figures/overview.png" alt="Motivation of our model"/>
       </div>    
   </div>
 </div>
@@ -285,9 +285,8 @@
 
 
 
-<section class="section hero is-light">
+<!-- <section class="section hero is-light">
   <div class="container is-max-desktop">
-    <!-- Abstract. -->
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
          <h2 class="title is-3">How does it work?</h2> 
@@ -297,25 +296,25 @@ Our human-to-robot motion retargeting connects robot control with diverse source
           </p>
         <div class="columns is-centered has-text-centered">
             <div class="item">
-          <p style="margin-bottom: 30px">
+          <p style="margin-bottom: 30px"> -->
 <!--
         <video poster="" id="tree" autoplay controls muted loop height="100%">
           <source src="static/figures/MDM-page.mp4"
           type="video/mp4">
         </video>
- --><br><br>
+ -->
+<!-- <br><br>
         </p>
         </div>
             </div>
         </div>
       </div>
     </div>
-    <!--/ Abstract. -->
   </div>
-</section>
+</section> -->
 
     
-<section class="hero is-small">
+<!-- <section class="hero is-small">
   <div class="hero-body">
     <div class="container">
 
@@ -326,11 +325,11 @@ Our human-to-robot motion retargeting connects robot control with diverse source
 </div>
 </div>
 </section>
+ -->
 
-
-      <section class="section hero is-light">
+<!--       <section class="section hero is-light">
   <div class="container is-max-desktop">
-    <!-- Abstract. -->
+
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
         <h2 class="title is-3">Human Motion Retargeting From Videos</h2>
@@ -341,12 +340,12 @@ Our human-to-robot motion retargeting connects robot control with diverse source
         </div>
       </div>
     </div>
-    <!--/ Abstract. -->
+
   </div>
-</section> 
+</section>  -->
 
     
-  <section class="hero is-small">
+<!--   <section class="hero is-small">
     <div class="hero-body">
       <div class="container">
         <div id="results-carousel" class="carousel results-carousel">
@@ -378,12 +377,12 @@ Our human-to-robot motion retargeting connects robot control with diverse source
           </div>
       </div>
     </div>
-  </section>
+  </section> -->
 
 
-   <section class="section hero is-light">
+<!--    <section class="section hero is-light">
   <div class="container is-max-desktop">
-    <!-- Abstract. -->
+
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
         <h2 class="title is-3">Human Motion Retargeting From Text commands</h2>
@@ -394,12 +393,12 @@ Our human-to-robot motion retargeting connects robot control with diverse source
         </div>
       </div>
     </div>
-    <!--/ Abstract. -->
+
   </div>
-</section> 
+</section>  -->
 
     
-  <section class="hero is-small">
+<!--   <section class="hero is-small">
     <div class="hero-body">
       <div class="container">
         <div id="results-carousel" class="carousel results-carousel">
@@ -431,11 +430,11 @@ Our human-to-robot motion retargeting connects robot control with diverse source
           </div>
       </div>
     </div>
-  </section>
+  </section> -->
 
-<section class="section hero is-light">
+<!-- <section class="section hero is-light">
   <div class="container is-max-desktop">
-    <!-- Abstract. -->
+
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
         <h2 class="title is-3">Human Motion Retgareting with different robots from textual commands</h2>
@@ -445,11 +444,11 @@ Our human-to-robot motion retargeting connects robot control with diverse source
         </div>
       </div>
     </div>
-    <!--/ Abstract. -->
-  </div>
-</section> 
 
-    <section class="hero is-small">
+  </div>
+</section>  -->
+
+<!--     <section class="hero is-small">
     <div class="hero-body">
       <div class="container">
         <div id="results-carousel" class="carousel results-carousel">
@@ -467,10 +466,10 @@ Our human-to-robot motion retargeting connects robot control with diverse source
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
 
 
-     <section class="section hero is-light">
+<!--      <section class="section hero is-light">
   <div class="container is-max-desktop">
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
@@ -482,10 +481,10 @@ Our human-to-robot motion retargeting connects robot control with diverse source
       </div>
     </div>
   </div>
-</section> 
+</section>  -->
 
     
-  <section class="hero is-small">
+<!--   <section class="hero is-small">
     <div class="hero-body">
       <div class="container" style="display: flex; flex-wrap: wrap;">         
         <div class="column is-centered has-text-centered">
@@ -515,12 +514,12 @@ Our human-to-robot motion retargeting connects robot control with diverse source
       </div>
     </div>
     
-  </section>
+  </section> -->
 
 
-  <section class="section hero is-light">
+<!--   <section class="section hero is-light">
   <div class="container is-max-desktop">
-    <!-- Abstract. -->
+
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
         <h2 class="title is-3">Comparison with the baseline</h2>
@@ -529,12 +528,12 @@ Our human-to-robot motion retargeting connects robot control with diverse source
         </div>
       </div>
     </div>
-    <!--/ Abstract. -->
+
   </div>
-</section> 
+</section>  -->
 
 
-      <section class="hero is-small">
+<!--       <section class="hero is-small">
     <div class="hero-body">
       <div class="container">
         <div id="results-carousel" class="carousel results-carousel">
@@ -552,7 +551,7 @@ Our human-to-robot motion retargeting connects robot control with diverse source
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
     
     
 <section class="section" id="BibTeX">
@@ -560,15 +559,12 @@ Our human-to-robot motion retargeting connects robot control with diverse source
       <h2 class="title">BibTeX</h2>
       <pre><code>
 @INPROCEEDINGS{10375150,
-  author={Yan, Yashuai and Mascaro, Esteve Valls and Lee, Dongheui},
-  booktitle={2023 IEEE-RAS 22nd International Conference on Humanoid Robots (Humanoids)}, 
-  title={ImitationNet: Unsupervised Human-to-Robot Motion Retargeting via Shared Latent Space}, 
-  year={2023},
+  author={Mingyu Zhang, Qing Gao1, Yuanchuan Lai, Ye Zhang, Tao Chang, Yulan Guo},
+  booktitle={2025 IEEE International Conference on Robotics and Automation (ICRA)}, 
+  title={3D Whole-body Pose Estimation Using Graph High-Resolution Network for Humanoid Robot Teleoperation}, 
+  year={2025},
   volume={},
-  number={},
-  pages={1-8},
-  keywords={Robot motion;Measurement;Interpolation;Three-dimensional displays;Humanoid robots;Aerospace electronics;Skeleton},
-  doi={10.1109/Humanoids57100.2023.10375150}}
+  number={}
 </code></pre>
     </div>
 </section>
