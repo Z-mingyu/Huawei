@@ -1,12 +1,3 @@
-# 3D Whole-body Pose Estimation Using Graph High-Resolution Network for Humanoid Robot Teleoperation
+# 基于遥操作的智慧病房护理系统
 
 
-Webpage for "3D Whole-body Pose Estimation Using Graph High-Resolution Network for Humanoid Robot Teleoperation"
-- Mingyu Zhang
-- Qing Gao
-- Yuanchuan Lai
-- Ye Zhang
-- Tao Chang
-- Yulan Guo
-
-                
